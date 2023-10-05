@@ -2,23 +2,14 @@
 
 [EN-US](https://github.com/Luizfelz/genomics_advances_monitoring_system/blob/main/README_EN-US.md)
 
-O projeto desenvolvido no terceiro módulo (Técnicas de Programação I) do programa Santander Coders tem como objetivo a o tratamento e limpeza de dados referentes à escolas no Rio de Janeiro e criação de uma rota de otimização para entrega dos materiais didaticos dessas escolas.
+O projeto desenvolvido no quarto módulo (Extração de Dados I) do programa Santander Coders tem como objetivo a aquisição de dados da [News API](https://newsapi.org/) e garantir uma pipeline de dados confiável, contínua e estável.
 
 ## Como rodar a aplicação?
 
-Antes de mais nada, tenha certeza de que você possui o [Git](https://git-scm.com/downloads) instalado em sua máquina. Depois, abra o Git Bash (Windows) ou Terminal (Linux/macOS) na pasta de sua preferência e digite:
+1. Acesse o [Databricks Community](https://community.cloud.databricks.com/login.html).
 
-```
-git clone https://github.com/Luizfelz/genomics_advances_monitoring_system
-```
+2. Importe o arquivo "SantanderCoders_Project_Group_3.dbc".
 
-Ao finalizar o download, digite:
+3. Os notebooks necessários serão carregados para seu ambiente dentro do Databricks.
 
-```
-pip install -r requirements.txt
-```
-
-Depois, lembre-se de colocar sua API-KEY no arquivo 'api_key_txt'.
-
-Por fim, após a instalação das bibliotecas necessárias, digite `python app.py` para executar a aplicação.
-genomics_advances_monitoring_system# genomics_advances_monitoring_system
+4. Execute os arquivos na sequência numérica.
